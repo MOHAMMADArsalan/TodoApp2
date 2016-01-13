@@ -16,10 +16,17 @@
 .backgroundColorPink {
     background-color: #FF7FE5;
 }
+
+.backgroundColorPurple {
+    background-color:#3F4996;
+}
 .foreColorWhite{ 
     color:#ffffff;
 }
 .clip-css {
   -webkit-clip-path: polygon(0 100%, 0 0, 100% 0, 80% 100%);
   clip-path: polygon(0 100%, 0 0, 100% 0, 80% 100%);
+}
+.nopadding {
+    padding: 0px !important;
 }
