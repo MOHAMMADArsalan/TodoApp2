@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="todoApp">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Angular Todo App</title>
+    <link rel="stylesheet" href="vendors/angular-material/angular-material.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="vendors/angular/angular.js"></script>
+    <script src="vendors/angular-animate/angular-animate.js"></script>
+    <script src="vendors/angular-aria/angular-aria.js"></script>
+    <script src="vendors/angular-material/angular-material.js"></script>
+    <script src="vendors/angular-material-icons/angular-material-icons.js"></script>
+    <script src="app/app.js"></script>
+</head>
+
+<body>
+    <div ng-controller="AppCtrl" layout="column">
+      <div layout="row" flex="100">
+                 <span style="background-color:#3F4996; height:200px;" flex="100"class="lip-css">
+               
+             </span>
+             <span id="myBox" style="background-color:#4752A5; z-index:4; height:200px;" flex="30">
+                
+             </span>
+      </div>
+        <!--<md-content layout-padding style="background-color:#3F4996;">
+
+            <md-button aria-label="sidenav bar" class="md-icon-button" ng-click="toggleRight()" ng-hide="isOpenRight()">
+                <ng-md-icon icon="menu" style="fill:white;" size="30"></ng-md-icon>
+            </md-button>
+            <div layout="row" layout-align="start center">
+                <img src="./images/mypic.jpg" alt="User profile image" class="img88px" aria-label="user image">
+                <div layout="column" layout-margin>
+                    <div class="md-display-1"> Arsalan Rajput</div>
+                    <span class="foreColorskyBlue md-title">Arsalan Rajput</span>
+                </div>
+            </div>
+
+        </md-content>-->
+        <div layout="row">
+            <div class="halfDiv backgroundColorSkyBlue foreColorWhite" flex="50" layout="column" layout-align="center center">
+                <span class="md-display-2">12</span>
+                <span class="md-title">Remaiming Task</span>
+            </div>
+            <div class="halfDiv backgroundColorPink foreColorWhite" flex="50" layout="column" layout-align="center center">
+                <span class="md-display-2">32</span>
+                <span class="md-title">Completed Task</span>
+            </div>
+        </div>
+    </div>
+    <md-sidenav md-component-id="right">
+
+        <md-content ng-controller="RightCtrl" layout-padding>
+
+            <md-button ng-click="close()" class="md-primary">
+                Close Sidenav Right
+            </md-button>
+        </md-content>
+    </md-sidenav>
+</body>
+
+</html>

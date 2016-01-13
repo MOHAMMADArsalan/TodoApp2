@@ -1,0 +1,25 @@
+.img88px{
+    width: 88px;
+    height:88px;
+    border-radius: 50%;
+}
+.foreColorskyBlue {
+  color:#68D3FF;  
+}
+.halfDiv {
+    height: 150px;
+  
+}
+.backgroundColorSkyBlue {
+    background-color: #4DC2FF;
+}
+.backgroundColorPink {
+    background-color: #FF7FE5;
+}
+.foreColorWhite{ 
+    color:#ffffff;
+}
+.clip-css {
+  -webkit-clip-path: polygon(0 100%, 0 0, 100% 0, 80% 100%);
+  clip-path: polygon(0 100%, 0 0, 100% 0, 80% 100%);
+}
